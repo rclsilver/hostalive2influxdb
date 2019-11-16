@@ -1,0 +1,19 @@
+{
+    "influxdb": {
+        "host": "localhost",
+        "port": 8086,
+        "user": "domotic",
+        "pass": "domotic",
+        "base": "monitoring"
+    },
+    "hosts": [
+        {
+            "name": "meross-01",
+            "address": "ff:ff:ff:ff:ff:ff"
+        },
+        {
+            "name": "meross-02",
+            "address": "ff:ff:ff:ff:ff:ff"
+        }
+    ]
+}
